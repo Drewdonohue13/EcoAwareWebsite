@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Eco-Aware</title> <link rel="stylesheet" type="text/css" href="../css/mobile.css" media="screen and (max-width:480px)"> <link rel="stylesheet" type="text/css" href="../css/tablet.css" media="screen and (min-width:481px) and (max-width:768px)"> <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen and (min-width:769px)"> 
+    </head>
+
+    <body>
+
+        <div class="wishlist-icon">
+            <img src="../images/wishlistIcon.png" onclick="WishlistClicked()"/>
+        </div>
+
+        <div class="wishlist-menu">
+            <div class="wishlist-items"></div>
+        </div>
+
+        <header>
+            <div id="title">
+                <a href="index.html" id="nav"><img src = "../images/logo.png" alt = "logo"></a>
+                <h1>Eco-Aware</h1>
+            </div>
+
+            <nav class="row">
+                <a href="index.html" id="nav">Home</a>
+                <a href="donations.html" id="nav">Donations</a>
+                <a href="information.html" id="nav">Information</a>
+                <a href="spread_the_word.html" id="nav">Spread The Word</a>
+                <a href="purchase.html" id="nav">Purchase</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <h2>Spread the Word Page</h2>
+            <p>Talk to other people from around the world who share your passion for saving the Earth.</p>
+
+            <div id="board">
+                <h3>General Board</h3>
+                <div>
+                    <p class="box" id = "chat">
+                        
+                        
+                    </p>
+                    <p>
+                    <strong>Your Username</strong>:
+                    <div id = "replaceName">
+                        <input type="text" id="username" name="username">
+                        <button type="button" onclick="PostUsername()" id = "buttonRemove">
+                            Enter
+                        </button>
+                    </div>
+                    </p>
+
+                    <p>
+                    <strong>Your Post</strong>:<input type="text" id="post" name="post">
+                    <button type="button" onclick="Post()">Enter</button>
+                    </p>
+
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p><small>Copyright &copy; 2021 Eco-Aware</small></p>
+        </footer>
+
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+</html>
+
+<script src="../js/speadtheword.js"></script>

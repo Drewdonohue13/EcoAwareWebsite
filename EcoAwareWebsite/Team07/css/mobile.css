@@ -1,0 +1,194 @@
+/*General*/
+body{
+  background-color:lightgreen;
+  text-align: center;
+  margin: 20px;
+}
+h1{
+  font-family: Verdana;
+  font-size: 40px;
+  }
+h2, h3, h4{
+  font-family:Verdana;
+  font-size: 30px;
+} 
+li, ol {
+  list-style-position:inside;
+}
+img{
+  border: dotted 4pt darkgreen; 
+}
+p{
+  font-size: 20px;
+  font-family: Monospace; 
+}
+a{
+  font-size: 20px;
+  font-family: Verdana;
+}
+button{
+  background: white;
+  font-family: Verdana;
+  font-size: 20px;
+  border: solid 2px black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+button:hover{
+  background: yellow;
+}
+input{
+  font-family: Verdana;
+  border: solid 2px black;
+}
+
+
+/*Spread The Word*/
+#board{
+  border: solid 3px;
+}
+.box{
+  border-bottom: solid 3px black;
+}
+
+
+/*Header*/
+#title > a > img{
+  float: left;
+  width: 75px;
+}
+#title > h1{
+  text-align: left;
+}
+nav{
+  font-size: 20px;
+  margin: 0px;
+}
+nav > a{
+  flex: 100%;
+  margin: 2px;
+  background-color: white;
+  padding: 5px;
+  border: solid 2pt;
+} 
+nav > a:visited, nav > a:link, nav > a:active{
+  color: black;
+  text-decoration: none;
+}
+nav > a:hover{
+  background: yellow;
+}
+
+/*Wishlist*/
+.wishlist-icon{
+  position:fixed;
+  right: 10px;
+  top: 10px;
+  width:50px;
+  z-index:1;
+}
+.wishlist-icon > img{
+  width: 100%;
+  border: none;
+}
+.wishlist-menu{
+  position:fixed;
+  right: 35px;
+  top: 75px;
+  width:400px;
+  z-index:1;
+  background-color: white;
+}
+.item-box{
+  margin: 10px;
+  border-bottom: 1px solid gray;
+}
+.item-wishlist-title{
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-top: 0px;
+}
+.item-wishlist-price{
+  margin-top: -25px;
+  margin-left: 80px;
+  font-size: 15px;
+  float: left;
+}
+.item-wishlist-images{
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+  border: none;
+}
+.item-wishlist-button{
+  background-color: white;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  margin-top: -25px;
+}
+
+
+/*Donations*/
+.group{
+  border-bottom: solid 1px;
+}
+
+
+/*Information*/
+.article{
+  border-bottom: solid 1px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+/*Home*/
+.images{
+  display: float;
+}
+.images > img{
+  float: center;
+  width: 100%;
+  margin: 5px;
+}
+
+
+/*Purchase*/
+#item > img{
+  width: 200px;
+  height: 200px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+figcaption {
+  color: white;
+  font-family: Monospace;
+}
+#item{
+  flex: 40%;
+  background: limegreen;
+  margin: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+#item > h4, #item > p{
+  color: white;
+}
+#item > a{
+  background: white;
+  padding: 5px;
+  border: solid 2px black;
+}
+#item > a:visited, #item > a:link, #item > a:active{
+  color: black;
+  text-decoration: none;
+}
+#item > a:hover{
+  background-color: yellow;
+}
